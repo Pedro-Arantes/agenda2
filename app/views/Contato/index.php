@@ -1,3 +1,4 @@
+
 <section class="caixa mt-4">
 				<div class="titulo h5 mb-0"> <h2>Lista de contatos</h2></div>
 				<div class="base-lista">
@@ -50,8 +51,8 @@
 								<td><?php echo $contato->email; ?></td>
 								<td align="center"><?php echo $contato->celular; ?></td>
 								<td align="center">
-									<a href="formulario.html" class="btn btn-editar" title="Editar"></a>
-									<a href="formulario.html" class="btn btn-exlcuir" title="excluir"></a>
+									<a href="<?php echo URL_BASE."contato/edit/".$contato->idcontato ?>" class="btn btn-editar" title="Editar"></a>
+									<a href="<?php echo URL_BASE."contato/excluir/".$contato->idcontato ?>" class="btn btn-exlcuir" title="excluir"></a>
 								</td>
 							</tr>
 							<?php } ?>	

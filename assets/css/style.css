@@ -223,7 +223,7 @@ body.base-login .caixa label
 		-webkit-overflow-scrolling: touch;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 }
-.tabela .btn.btn-exlcuir{
+.tabela .btn.btn-excluir{
 	border-radius:40px;
 	background:#EF5B5B url(../img/iconoir_trash.svg) no-repeat center!important;
 	background-size: 68%!important;

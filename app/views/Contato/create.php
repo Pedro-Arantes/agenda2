@@ -25,62 +25,62 @@
 								<div class="rows">
 									<div class="col-8">
 										<label>Nome</label>
-										<input name="nome" value="" type="text" placeholder="Insira um nome" class="form-campo">
+										<input name="nome" value="<?php echo isset($contato) ? $contato->nome : ""  ?>" type="text" placeholder="Insira um nome" class="form-campo">
 									</div>
 								<div class="col-4">
 									<label>CPF</label>
-									<input name="cpf" value="" type="text" placeholder="Insira seu CPF" class="form-campo">
+									<input name="cpf" value="<?php echo isset($contato) ? $contato->cpf : ""  ?>" type="text" placeholder="Insira seu CPF" class="form-campo">
 								</div>									
 									<div class="col-3">
 										<label>Nascimento</label>
-										<input name="dtnasc" value="" type="date" placeholder="Insira seu nascimento" class="form-campo">
+										<input name="dtnasc" value="<?php echo isset($contato) ? $contato->dtnasc : ""  ?>" type="date" placeholder="Insira seu nascimento" class="form-campo">
 									</div>							
 													
 								<div class="col-3">
 									<label>Celular</label>
-									<input name="celular" value="" type="text" placeholder="Insira seu celular" class="form-campo">
+									<input name="celular" value="<?php echo isset($contato) ? $contato->celular : ""  ?>" type="text" placeholder="Insira seu celular" class="form-campo">
 								</div>
 									
 									<div class="col-6">
 										<label>Email</label>
-										<input name="email" value="" type="text" placeholder="Insira seu Email" class="form-campo">
+										<input name="email" value="<?php echo isset($contato) ? $contato->email : ""  ?>" type="text" placeholder="Insira seu Email" class="form-campo">
 									</div>
 									<div class="col-3">
 										<label>Cep</label>
-										<input name="cep" value="" type="text" placeholder="Insira seu email" class="form-campo">
+										<input name="cep" value="<?php echo isset($contato) ? $contato->cep : ""  ?>" type="text" placeholder="Insira seu email" class="form-campo">
 									</div>
 									
 									<div class="col-9">				
 										<label>Endereço</label>
-										<input name="endereco" value="" type="text" placeholder="Insira seu endereço" class="form-campo">
+										<input name="endereco" value="<?php echo isset($contato) ? $contato->endereco : ""  ?>" type="text" placeholder="Insira seu endereço" class="form-campo">
 									</div>
 									<div class="col-6">
 									<label>Complemento</label>
-									<input name="complemento" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+									<input name="complemento" value="<?php echo isset($contato) ? $contato->complemento : ""  ?>" type="text" placeholder="Insira um Número" class="form-campo">	
 								</div>
 								<div class="col-3">
 									<label>Número</label>
-									<input name="numero" value="" type="text" placeholder="Insira um Número" class="form-campo">	
+									<input name="numero" value="<?php echo isset($contato) ? $contato->numero : ""  ?>" type="text" placeholder="Insira um Número" class="form-campo">	
 								</div>
 								
 									<div class="col-3">
 										<label>UF</label>
-										<input name="estado" value="" type="text" placeholder="Insira seu bairro" class="form-campo">						
+										<input name="estado" value="<?php echo isset($contato) ? $contato->estado : ""  ?>" type="text" placeholder="Insira seu bairro" class="form-campo">						
 									</div>
 								<div class="col-6">
 									<label>Bairro</label>
-									<input name="bairro" value="" type="text" placeholder="Insira seu bairro" class="form-campo">
+									<input name="bairro" value="<?php echo isset($contato) ? $contato->bairro : ""  ?>" type="text" placeholder="Insira seu bairro" class="form-campo">
 								</div>
 									
 								<div class="col-6">
 									<label>Cidade</label>
-									<input name="cidade" value="" type="text" placeholder="Insira sua cidade" class="form-campo">	
+									<input name="cidade" value="<?php echo isset($contato) ? $contato->cidade : ""  ?>" type="text" placeholder="Insira sua cidade" class="form-campo">	
 								</div>		
 														
 																
 								
 								<div class="col-4 m-auto">
-									<input type="hidden" name="" value="" />
+									<input type="hidden" name="idcontato" value="<?php echo isset($contato) ? $contato->idcontato : ""  ?>" />
 									<input type="submit" value="Cadastrar" class="btn btn-verde width-100">
 								</div>
 								

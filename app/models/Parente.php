@@ -23,7 +23,7 @@ class Parente extends Model{
             parentesco  =:parentesco,
             dtnasc      =:dtnasc,
             celular     =:celular,
-            email       =:email,
+            email       =:email
             
             
         ";

@@ -40,7 +40,7 @@
 						<div class="col-12 mt-5 pt-4"><h2 class="titulo">MENU</h2></div>
 						<div class="col-3 mb-3">
 							<article class="cx-home">
-								<a href="<?php echo URL_BASE ."contato/create" ?>cadastro.html" class="btn cx-body">
+								<a href="<?php echo URL_BASE ."contato/create" ?>" class="btn cx-body">
 									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_add-user.svg"></i>
 									<div>cadastro</div>
 								</a>
@@ -48,7 +48,7 @@
 						</div>
 						<div class="col-3 mb-3">
 							<article class="cx-home">
-								<a href="<?php echo URL_BASE ."contato" ?>lista.html" class="btn cx-body">
+								<a href="<?php echo URL_BASE ."contato" ?>" class="btn cx-body">
 									<i><img src="<?php echo URL_BASE ?>/assets/img/icons8_numbered-list.svg"></i>
 									<div>Listar contatos</div>
 								</a>
